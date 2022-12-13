@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="SQL DTM AGENDA" id="8DF8EF47-5EF6-CBB9-0A87-08BF0E8F9387" version="3.5">
+<createdBy>Helio</createdBy>
+<createdTime>2022-10-24 20:36:57 UTC</createdTime>
+<ownerDesignName>SQL DTM AGENDA</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>8DF8EF47-5EF6-CBB9-0A87-08BF0E8F9387</designId>
+</OSDM_Design>

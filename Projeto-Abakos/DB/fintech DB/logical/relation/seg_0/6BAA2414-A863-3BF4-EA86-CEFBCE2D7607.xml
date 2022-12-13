@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Registrar Gastos" directorySegmentName="seg_0" id="6BAA2414-A863-3BF4-EA86-CEFBCE2D7607">
+<createdBy>Helio</createdBy>
+<createdTime>2022-11-11 22:21:16 UTC</createdTime>
+<ownerDesignName>fintech DB</ownerDesignName>
+<engineerTo>
+<item key="D009A703-A3CD-6C88-9BF7-8EE78059F6EB" value="true"/>
+</engineerTo>
+<sourcePk>04EF2612-A7F1-4AFC-26FE-E97BA81733CE</sourcePk>
+<identifying>true</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>35347D6A-271F-D279-7AF4-541AADF17B27</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>F61BCED4-B2FF-681E-3AF7-E10D10CE7410</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

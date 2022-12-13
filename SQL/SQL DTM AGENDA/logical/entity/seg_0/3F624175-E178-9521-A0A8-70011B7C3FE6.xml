@@ -1,0 +1,56 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3F624175-E178-9521-A0A8-70011B7C3FE6" name="T_PROFISSIONAL">
+<createdBy>Helio</createdBy>
+<createdTime>2022-10-24 20:43:58 UTC</createdTime>
+<ownerDesignName>SQL DTM AGENDA</ownerDesignName>
+<engineerTo>
+<item key="6B399640-2BE2-3C43-0D34-4326E5A9AB6D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="nr_trabalho" id="941E625C-2CFF-75E5-55F1-329339F7A01E">
+<createdBy>Helio</createdBy>
+<createdTime>2022-10-24 20:44:26 UTC</createdTime>
+<ownerDesignName>SQL DTM AGENDA</ownerDesignName>
+<engineerTo>
+<item key="6B399640-2BE2-3C43-0D34-4326E5A9AB6D" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_nome" id="F33C739D-F8B7-04C8-425D-4F68BD6F4F1D">
+<createdBy>Helio</createdBy>
+<createdTime>2022-10-24 20:49:10 UTC</createdTime>
+<generatorID>D94AE5DE-D412-EFB1-E571-91882AF5519D</generatorID>
+<ownerDesignName>SQL DTM AGENDA</ownerDesignName>
+<engineerTo>
+<item key="6B399640-2BE2-3C43-0D34-4326E5A9AB6D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>96D8FC32-B71A-197D-2F2C-ABE28374DC61</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D23033AF-EA18-39E2-4C37-D13AA502A8A5" name="T_PROFISSIONAL PK">
+<createdBy>Helio</createdBy>
+<createdTime>2022-10-24 20:50:37 UTC</createdTime>
+<ownerDesignName>SQL DTM AGENDA</ownerDesignName>
+<engineerTo>
+<item key="6B399640-2BE2-3C43-0D34-4326E5A9AB6D" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>941E625C-2CFF-75E5-55F1-329339F7A01E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

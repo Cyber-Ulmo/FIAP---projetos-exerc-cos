@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D551B02A-7A10-CC32-0685-E9A12D5BF140" name="T_GASTO_MENSAL">
+<createdBy>Helio</createdBy>
+<createdTime>2022-11-11 22:30:00 UTC</createdTime>
+<generatorID>F61BCED4-B2FF-681E-3AF7-E10D10CE7410</generatorID>
+<ownerDesignName>fintech DB</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="T_USUÁRIO_nm_usuário" id="BFFD1A41-0AD5-7466-30AA-CF26B66668AF">
+<createdBy>Helio</createdBy>
+<createdTime>2022-11-11 22:30:00 UTC</createdTime>
+<generatorID>13786E5C-B407-BAD8-2BDC-02F137604135</generatorID>
+<ownerDesignName>fintech DB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FB4EBC00-2F2D-DE39-3131-853EFA74DE9E" referredColumn="C180CC38-DA8D-F425-7E15-72A5FD03DBCE"/>
+</associations>
+</Column>
+<Column name="nr_gasto01" id="BB4622D3-21C9-1A75-6272-7D6B669CCF98">
+<createdBy>Helio</createdBy>
+<createdTime>2022-11-11 22:30:00 UTC</createdTime>
+<generatorID>CA816EE6-8292-59C1-531A-65EB4C25A579</generatorID>
+<ownerDesignName>fintech DB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nr_gasto02" id="4D02682F-C3EF-516E-AB30-186569E0C245">
+<createdBy>Helio</createdBy>
+<createdTime>2022-11-11 22:30:00 UTC</createdTime>
+<generatorID>B4D51AA3-731E-66E7-B4D7-0EC5B6DAE299</generatorID>
+<ownerDesignName>fintech DB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nr_gasto03" id="C71FC92A-1BEF-E70E-95DE-FDE51C54C8F8">
+<createdBy>Helio</createdBy>
+<createdTime>2022-11-11 22:30:00 UTC</createdTime>
+<generatorID>C8FCF43E-D447-4CF2-1680-47ED1E90DB25</generatorID>
+<ownerDesignName>fintech DB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="846684C5-9697-BE2E-3F9B-2C55A44D0AA3" name="T_GASTO_MENSAL_PK">
+<createdBy>Helio</createdBy>
+<createdTime>2022-11-11 22:30:00 UTC</createdTime>
+<generatorID>872448EE-78B1-6C1F-60AE-C9E0DC63C1FF</generatorID>
+<ownerDesignName>fintech DB</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BFFD1A41-0AD5-7466-30AA-CF26B66668AF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="02A1792E-D782-4228-396B-A487836FD8F2" name="T_GASTO_MENSAL_T_USUÁRIO_FK">
+<createdBy>Helio</createdBy>
+<createdTime>2022-11-11 22:30:00 UTC</createdTime>
+<generatorID>6BAA2414-A863-3BF4-EA86-CEFBCE2D7607</generatorID>
+<ownerDesignName>fintech DB</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BFFD1A41-0AD5-7466-30AA-CF26B66668AF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,54 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="00F4B74F-4CEC-8398-E4DB-3C8AC4C55623" name="T_AGENDA">
+<createdBy>Helio</createdBy>
+<createdTime>2022-10-24 20:38:09 UTC</createdTime>
+<ownerDesignName>SQL DTM AGENDA</ownerDesignName>
+<engineerTo>
+<item key="6B399640-2BE2-3C43-0D34-4326E5A9AB6D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ds_nome" id="96D8FC32-B71A-197D-2F2C-ABE28374DC61">
+<createdBy>Helio</createdBy>
+<createdTime>2022-10-24 20:39:02 UTC</createdTime>
+<ownerDesignName>SQL DTM AGENDA</ownerDesignName>
+<engineerTo>
+<item key="6B399640-2BE2-3C43-0D34-4326E5A9AB6D" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_email" id="10DA4C0F-0CD2-667E-649D-593C54EE2041">
+<createdBy>Helio</createdBy>
+<createdTime>2022-10-24 20:40:04 UTC</createdTime>
+<ownerDesignName>SQL DTM AGENDA</ownerDesignName>
+<engineerTo>
+<item key="6B399640-2BE2-3C43-0D34-4326E5A9AB6D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="FF860F2A-11AF-5FBC-680D-7AFB52762214" name="T_AGENDA PK">
+<createdBy>Helio</createdBy>
+<createdTime>2022-10-24 20:39:22 UTC</createdTime>
+<ownerDesignName>SQL DTM AGENDA</ownerDesignName>
+<engineerTo>
+<item key="6B399640-2BE2-3C43-0D34-4326E5A9AB6D" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>96D8FC32-B71A-197D-2F2C-ABE28374DC61</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

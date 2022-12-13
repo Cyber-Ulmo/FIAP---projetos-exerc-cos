@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ProcessModel class="oracle.dbtools.crest.model.design.process.ProcessModel" name="Process Model" id="A07E9A3A-5379-AF20-5F04-594537C1DD83">
+<createdBy>Helio</createdBy>
+<createdTime>2022-11-11 21:56:21 UTC</createdTime>
+<ownerDesignName>fintech DB</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</ProcessModel>

@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5D9F9427-2244-04CF-67ED-37880F826F48" name="T_META">
+<createdBy>Helio</createdBy>
+<createdTime>2022-11-11 22:30:00 UTC</createdTime>
+<generatorID>4A102478-6BF8-318D-7D9A-CDA1621FABC4</generatorID>
+<ownerDesignName>fintech DB</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="nr_meta01" id="F873B740-D3E0-B1D6-6FDD-32B7C2138006">
+<createdBy>Helio</createdBy>
+<createdTime>2022-11-11 22:30:00 UTC</createdTime>
+<generatorID>7666638B-1D50-7CC5-6F29-5E970BD38BFF</generatorID>
+<ownerDesignName>fintech DB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nr_meta02" id="980B3FE1-D999-4285-A300-E3CD6910AB55">
+<createdBy>Helio</createdBy>
+<createdTime>2022-11-11 22:30:00 UTC</createdTime>
+<generatorID>D5A55F90-2478-34B3-EECD-1D40E147A0D5</generatorID>
+<ownerDesignName>fintech DB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nr_meta03" id="BF78C91A-0503-1F99-F979-2D6FDEAF66AF">
+<createdBy>Helio</createdBy>
+<createdTime>2022-11-11 22:30:00 UTC</createdTime>
+<generatorID>A23A3682-8FBE-39D4-E9B5-A4C772E7E04D</generatorID>
+<ownerDesignName>fintech DB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_USUÁRIO_nm_usuário" id="D0A45F10-0C1A-4E3F-F724-6D76A53B2999">
+<createdBy>Helio</createdBy>
+<createdTime>2022-11-11 22:30:00 UTC</createdTime>
+<generatorID>BF7571D5-C8D0-AA55-B707-7506C34ABD80</generatorID>
+<ownerDesignName>fintech DB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="144D539A-279E-9E68-B945-B661D347F097" referredColumn="C180CC38-DA8D-F425-7E15-72A5FD03DBCE"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C3054B41-F9C6-F461-9E9B-AA452B66A9CB" name="T_META_PK">
+<createdBy>Helio</createdBy>
+<createdTime>2022-11-11 22:30:00 UTC</createdTime>
+<generatorID>573F9A98-E804-44D1-DEFA-09C215EED1E5</generatorID>
+<ownerDesignName>fintech DB</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D0A45F10-0C1A-4E3F-F724-6D76A53B2999"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A069525E-9E3D-825E-4CC5-6ED518B6951B" name="T_META_T_USUÁRIO_FK">
+<createdBy>Helio</createdBy>
+<createdTime>2022-11-11 22:30:00 UTC</createdTime>
+<generatorID>8DA72553-85C7-4985-5CDB-7E959AEC6E16</generatorID>
+<ownerDesignName>fintech DB</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D0A45F10-0C1A-4E3F-F724-6D76A53B2999"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

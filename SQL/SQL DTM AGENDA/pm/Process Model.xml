@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ProcessModel class="oracle.dbtools.crest.model.design.process.ProcessModel" name="Process Model" id="3D0D31BE-5DA1-D304-0C1D-4C061FA89F41">
+<createdBy>Helio</createdBy>
+<createdTime>2022-10-24 20:36:57 UTC</createdTime>
+<ownerDesignName>SQL DTM AGENDA</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</ProcessModel>

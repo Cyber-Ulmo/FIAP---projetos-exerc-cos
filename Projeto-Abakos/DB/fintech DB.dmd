@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="fintech DB" id="72A4273D-E477-E2BE-C49C-EC8DBCFFABAE" version="3.5">
+<createdBy>Helio</createdBy>
+<createdTime>2022-11-11 21:56:20 UTC</createdTime>
+<ownerDesignName>fintech DB</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>72A4273D-E477-E2BE-C49C-EC8DBCFFABAE</designId>
+</OSDM_Design>

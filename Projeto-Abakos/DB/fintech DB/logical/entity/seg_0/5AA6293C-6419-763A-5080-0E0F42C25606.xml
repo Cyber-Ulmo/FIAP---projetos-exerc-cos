@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5AA6293C-6419-763A-5080-0E0F42C25606" name="T_DEPOSITO_MENSAL">
+<createdBy>Helio</createdBy>
+<createdTime>2022-11-11 22:19:07 UTC</createdTime>
+<ownerDesignName>fintech DB</ownerDesignName>
+<engineerTo>
+<item key="D009A703-A3CD-6C88-9BF7-8EE78059F6EB" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="nm_usuário" id="52CA5C57-C8C3-1E8F-03CC-D121937E6E68">
+<createdBy>Helio</createdBy>
+<createdTime>2022-11-11 22:22:16 UTC</createdTime>
+<generatorID>612A61DF-181F-A116-6490-1095695D3D33</generatorID>
+<ownerDesignName>fintech DB</ownerDesignName>
+<engineerTo>
+<item key="D009A703-A3CD-6C88-9BF7-8EE78059F6EB" value="true"/>
+</engineerTo>
+<referedAttribute>DC4ECDAB-3BC4-D9EB-E2F6-494B14E51DD1</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_deposito01" id="92E33936-CD4A-5ED8-0336-F0E970A7D7D6">
+<createdBy>Helio</createdBy>
+<createdTime>2022-11-11 22:25:22 UTC</createdTime>
+<ownerDesignName>fintech DB</ownerDesignName>
+<engineerTo>
+<item key="D009A703-A3CD-6C88-9BF7-8EE78059F6EB" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_deposito02" id="783F25E9-4AD7-57D8-7919-3B764210CA4B">
+<createdBy>Helio</createdBy>
+<createdTime>2022-11-11 22:25:34 UTC</createdTime>
+<ownerDesignName>fintech DB</ownerDesignName>
+<engineerTo>
+<item key="D009A703-A3CD-6C88-9BF7-8EE78059F6EB" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_deposito03" id="6E54110A-1023-DBE2-0312-92E97FF16DE6">
+<createdBy>Helio</createdBy>
+<createdTime>2022-11-11 22:25:46 UTC</createdTime>
+<ownerDesignName>fintech DB</ownerDesignName>
+<engineerTo>
+<item key="D009A703-A3CD-6C88-9BF7-8EE78059F6EB" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="3074F9EC-73BF-0ABB-B142-0A19E6641A8E" name="T_DEPOSITO_MENSAL PK">
+<createdBy>Helio</createdBy>
+<createdTime>2022-11-11 22:22:26 UTC</createdTime>
+<ownerDesignName>fintech DB</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="D009A703-A3CD-6C88-9BF7-8EE78059F6EB" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>52CA5C57-C8C3-1E8F-03CC-D121937E6E68</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Registrar depositos" directorySegmentName="seg_0" id="612A61DF-181F-A116-6490-1095695D3D33">
+<createdBy>Helio</createdBy>
+<createdTime>2022-11-11 22:22:16 UTC</createdTime>
+<ownerDesignName>fintech DB</ownerDesignName>
+<engineerTo>
+<item key="D009A703-A3CD-6C88-9BF7-8EE78059F6EB" value="true"/>
+</engineerTo>
+<sourcePk>04EF2612-A7F1-4AFC-26FE-E97BA81733CE</sourcePk>
+<identifying>true</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>35347D6A-271F-D279-7AF4-541AADF17B27</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>5AA6293C-6419-763A-5080-0E0F42C25606</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

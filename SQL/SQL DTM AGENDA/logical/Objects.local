@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.logical.LogicalDesign>
+   <object objectType="Entity" objectID="00F4B74F-4CEC-8398-E4DB-3C8AC4C55623" name="T_AGENDA" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="68DBC9B2-A030-C969-6718-EF67D5C04886" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="0F5D2260-C4F1-E302-2354-6440BE22CEE3" name="T_PESSOAL" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="68DBC9B2-A030-C969-6718-EF67D5C04886" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="3F624175-E178-9521-A0A8-70011B7C3FE6" name="T_PROFISSIONAL" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="68DBC9B2-A030-C969-6718-EF67D5C04886" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Relation" objectID="D94AE5DE-D412-EFB1-E571-91882AF5519D" name="Pertencev1" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Relation" propertyParentId="68DBC9B2-A030-C969-6718-EF67D5C04886" propertySourceId="00F4B74F-4CEC-8398-E4DB-3C8AC4C55623" propertyTargetId="3F624175-E178-9521-A0A8-70011B7C3FE6"/>
+   <object objectType="Relation" objectID="67E40F74-3E13-7762-615E-18F7E6687CCF" name="Relation_4" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Relation" propertyParentId="68DBC9B2-A030-C969-6718-EF67D5C04886" propertySourceId="00F4B74F-4CEC-8398-E4DB-3C8AC4C55623" propertyTargetId="0F5D2260-C4F1-E302-2354-6440BE22CEE3"/>
+</oracle.dbtools.crest.model.design.logical.LogicalDesign>

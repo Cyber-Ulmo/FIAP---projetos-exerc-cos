@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<MultidimensionalDesign class="oracle.dbtools.crest.model.design.multidimensional.MultidimensionalDesign" name="Multidimensional_1" id="052CB009-8B78-8859-DE49-0FBB6EA90836" mainViewID="D2786FF7-D745-359C-E592-AC05B40EAF64" boundModel="68DBC9B2-A030-C969-6718-EF67D5C04886">
+<createdBy>Helio</createdBy>
+<createdTime>2022-10-24 20:58:02 UTC</createdTime>
+<ownerDesignName>SQL DTM AGENDA</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</MultidimensionalDesign>

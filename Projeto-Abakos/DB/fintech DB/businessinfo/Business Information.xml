@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<BusinessInfoDesign class="oracle.dbtools.crest.model.businessinfo.BusinessInfoDesign" name="Business Information" id="011F0129-FE01-9430-1827-D2BE50512D7E">
+<createdBy>Helio</createdBy>
+<createdTime>2022-11-11 21:56:21 UTC</createdTime>
+<ownerDesignName>fintech DB</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</BusinessInfoDesign>

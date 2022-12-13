@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="1C77A979-A7E0-32A9-3980-FC80201FCCCA" containerWithKeyObject="DA9A9E44-7255-080D-5C41-CDA3962A23E4" localFKIndex="D880DA56-6A68-F8A1-2149-95B5DB175775" name="T_DEPOSITO_MENSAL_T_USUÁRIO_FK">
+<createdBy>Helio</createdBy>
+<createdTime>2022-11-11 22:30:00 UTC</createdTime>
+<generatorID>612A61DF-181F-A116-6490-1095695D3D33</generatorID>
+<ownerDesignName>fintech DB</ownerDesignName>
+<referredTableLongName>T_USUÁRIO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>E627E9AB-C348-28AB-DD8D-8E61AB2CACCB</referredTableID>
+<keyObject>5AD833F0-B012-2A0D-02B5-D3B6EB0F38F5</keyObject>
+<referredKeyID>5AD833F0-B012-2A0D-02B5-D3B6EB0F38F5</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>nm_usuário</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Descrever meta" directorySegmentName="seg_0" id="8DA72553-85C7-4985-5CDB-7E959AEC6E16">
+<createdBy>Helio</createdBy>
+<createdTime>2022-11-11 22:20:18 UTC</createdTime>
+<ownerDesignName>fintech DB</ownerDesignName>
+<engineerTo>
+<item key="D009A703-A3CD-6C88-9BF7-8EE78059F6EB" value="true"/>
+</engineerTo>
+<sourcePk>04EF2612-A7F1-4AFC-26FE-E97BA81733CE</sourcePk>
+<identifying>true</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>35347D6A-271F-D279-7AF4-541AADF17B27</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>4A102478-6BF8-318D-7D9A-CDA1621FABC4</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

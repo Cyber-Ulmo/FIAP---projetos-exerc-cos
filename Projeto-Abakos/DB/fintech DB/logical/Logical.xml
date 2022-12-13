@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="34303941-2410-50E1-E3DB-B47B0157710D" mainViewID="7D4CAC96-4989-E8AE-E11C-4AC740F92191">
+<createdBy>Helio</createdBy>
+<createdTime>2022-11-11 21:56:20 UTC</createdTime>
+<ownerDesignName>fintech DB</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="68DBC9B2-A030-C969-6718-EF67D5C04886" mainViewID="C96BAD2C-F1F3-161F-4CA5-B4862700C22F">
+<createdBy>Helio</createdBy>
+<createdTime>2022-10-24 20:36:57 UTC</createdTime>
+<ownerDesignName>SQL DTM AGENDA</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

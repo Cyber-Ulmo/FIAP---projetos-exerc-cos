@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<BusinessInfoDesign class="oracle.dbtools.crest.model.businessinfo.BusinessInfoDesign" name="Business Information" id="256C268D-901D-8B9B-9918-0A8A9B0B3DF0">
+<createdBy>Helio</createdBy>
+<createdTime>2022-10-24 20:36:57 UTC</createdTime>
+<ownerDesignName>SQL DTM AGENDA</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</BusinessInfoDesign>

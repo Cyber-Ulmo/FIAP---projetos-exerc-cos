@@ -1,0 +1,66 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0F5D2260-C4F1-E302-2354-6440BE22CEE3" name="T_PESSOAL">
+<createdBy>Helio</createdBy>
+<createdTime>2022-10-24 21:05:06 UTC</createdTime>
+<ownerDesignName>SQL DTM AGENDA</ownerDesignName>
+<engineerTo>
+<item key="6B399640-2BE2-3C43-0D34-4326E5A9AB6D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="nr_celular" id="90BA2C3A-9720-8D9C-76E2-98602AFEA151">
+<createdBy>Helio</createdBy>
+<createdTime>2022-10-24 21:05:20 UTC</createdTime>
+<ownerDesignName>SQL DTM AGENDA</ownerDesignName>
+<engineerTo>
+<item key="6B399640-2BE2-3C43-0D34-4326E5A9AB6D" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_residencial" id="1CBCCD3B-887C-445F-7B74-47423573CC28">
+<createdBy>Helio</createdBy>
+<createdTime>2022-10-24 21:05:33 UTC</createdTime>
+<ownerDesignName>SQL DTM AGENDA</ownerDesignName>
+<engineerTo>
+<item key="6B399640-2BE2-3C43-0D34-4326E5A9AB6D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_nome" id="54F0E5D3-98BA-BDCD-1164-F659652EDB4E">
+<createdBy>Helio</createdBy>
+<createdTime>2022-10-24 21:05:52 UTC</createdTime>
+<generatorID>67E40F74-3E13-7762-615E-18F7E6687CCF</generatorID>
+<ownerDesignName>SQL DTM AGENDA</ownerDesignName>
+<engineerTo>
+<item key="6B399640-2BE2-3C43-0D34-4326E5A9AB6D" value="true"/>
+</engineerTo>
+<referedAttribute>96D8FC32-B71A-197D-2F2C-ABE28374DC61</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="35EE9D7F-1FA0-E67B-03AE-EC1B3564E787" name="T_PESSOAL PK">
+<createdBy>Helio</createdBy>
+<createdTime>2022-10-24 21:05:28 UTC</createdTime>
+<ownerDesignName>SQL DTM AGENDA</ownerDesignName>
+<engineerTo>
+<item key="6B399640-2BE2-3C43-0D34-4326E5A9AB6D" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>90BA2C3A-9720-8D9C-76E2-98602AFEA151</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

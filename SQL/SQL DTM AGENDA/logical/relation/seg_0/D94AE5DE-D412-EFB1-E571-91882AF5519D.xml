@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Pertencev1" directorySegmentName="seg_0" id="D94AE5DE-D412-EFB1-E571-91882AF5519D">
+<createdBy>Helio</createdBy>
+<createdTime>2022-10-24 20:46:50 UTC</createdTime>
+<ownerDesignName>SQL DTM AGENDA</ownerDesignName>
+<engineerTo>
+<item key="6B399640-2BE2-3C43-0D34-4326E5A9AB6D" value="true"/>
+</engineerTo>
+<sourcePk>FF860F2A-11AF-5FBC-680D-7AFB52762214</sourcePk>
+<dominantRole>00F4B74F-4CEC-8398-E4DB-3C8AC4C55623</dominantRole>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>00F4B74F-4CEC-8398-E4DB-3C8AC4C55623</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>3F624175-E178-9521-A0A8-70011B7C3FE6</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
